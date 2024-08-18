@@ -1,0 +1,19 @@
+.file-input-box {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 150px; /* กำหนดความกว้าง */
+  height: 150px; /* กำหนดความสูง */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.file-input-box img {
+  max-width: 100%;
+  max-height: 100%; /* กำหนดให้รูปภาพมีขนาดไม่เกินกล่อง */
+  display: none;
+}
